@@ -1,0 +1,56 @@
+@media (max-width:768px) {
+    body {
+        background-color: #37be68;
+    }
+
+    .songItem {
+        height: 64px;
+    }
+
+    .songItem img {
+        margin: 0 18px;
+    }
+
+    .songName {
+        width: 134px;
+        font-size: 0.75em;
+    }
+
+    .timestamp {
+        margin: 0 20px;
+        font-size: 0.68rem;
+    }
+
+    /* bottom section start */
+
+    .bottom {
+        height: 150px;
+    }
+
+    #previous,
+    #masterPlay,
+    #next {
+        font-size: 25px;
+    }
+
+    .songInfo {
+        top: 0.61rem;
+        left: auto;
+    }
+}
+
+@media (min-width:769px) and (max-width:1023px) {
+    .songInfo{
+        margin-top: 32px;
+    }
+
+    .icons {
+        margin-left: 435px;
+    }
+
+    #previous,
+    #masterPlay,
+    #next {
+        font-size: 30px;
+    }
+}

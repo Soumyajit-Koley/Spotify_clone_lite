@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 body {
-    background-color: antiquewhite;
+    background-color: #2d46bb;
 }
 
 * {
@@ -25,6 +25,7 @@ nav ul {
 
 nav ul li {
     padding: 0 12px;
+    color: #e5e7f0;
 }
 
 .brand img {
@@ -45,6 +46,7 @@ nav ul li {
     color: white;
     font-family: 'Varela Round', sans-serif;
     display: flex;
+    justify-content: center;
     margin: 23px auto;
     width: 70%;
     border-radius: 12px;
@@ -126,8 +128,8 @@ footer {
     
 }
 
-@media only screen and (max-width: 1100px) {
+/* @media only screen and (max-width: 1100px) {
     body {
         background-color: red;
     }
-}
+} */
